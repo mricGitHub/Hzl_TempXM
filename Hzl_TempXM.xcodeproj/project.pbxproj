@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BCD47C161D02CB380058995B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD47C151D02CB380058995B /* main.m */; };
+		BCD47C191D02CB380058995B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD47C181D02CB380058995B /* AppDelegate.m */; };
+		BCD47C1C1D02CB380058995B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD47C1B1D02CB380058995B /* ViewController.m */; };
+		BCD47C1F1D02CB380058995B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD47C1D1D02CB380058995B /* Main.storyboard */; };
+		BCD47C211D02CB380058995B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCD47C201D02CB380058995B /* Assets.xcassets */; };
+		BCD47C241D02CB380058995B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCD47C221D02CB380058995B /* LaunchScreen.storyboard */; };
+		BCD47C2F1D02CB380058995B /* Hzl_TempXMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD47C2E1D02CB380058995B /* Hzl_TempXMTests.m */; };
+		BCD47C3A1D02CB380058995B /* Hzl_TempXMUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCD47C391D02CB380058995B /* Hzl_TempXMUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BCD47C2B1D02CB380058995B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD47C091D02CB380058995B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD47C101D02CB380058995B;
+			remoteInfo = Hzl_TempXM;
+		};
+		BCD47C361D02CB380058995B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BCD47C091D02CB380058995B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BCD47C101D02CB380058995B;
+			remoteInfo = Hzl_TempXM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BCD47C111D02CB380058995B /* Hzl_TempXM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hzl_TempXM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD47C151D02CB380058995B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BCD47C171D02CB380058995B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BCD47C181D02CB380058995B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BCD47C1A1D02CB380058995B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BCD47C1B1D02CB380058995B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BCD47C1E1D02CB380058995B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCD47C201D02CB380058995B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCD47C231D02CB380058995B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCD47C251D02CB380058995B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD47C2A1D02CB380058995B /* Hzl_TempXMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hzl_TempXMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD47C2E1D02CB380058995B /* Hzl_TempXMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hzl_TempXMTests.m; sourceTree = "<group>"; };
+		BCD47C301D02CB380058995B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCD47C351D02CB380058995B /* Hzl_TempXMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hzl_TempXMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCD47C391D02CB380058995B /* Hzl_TempXMUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hzl_TempXMUITests.m; sourceTree = "<group>"; };
+		BCD47C3B1D02CB380058995B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCD47C0E1D02CB380058995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C271D02CB380058995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C321D02CB380058995B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BCD47C081D02CB380058995B = {
+			isa = PBXGroup;
+			children = (
+				BCD47C131D02CB380058995B /* Hzl_TempXM */,
+				BCD47C2D1D02CB380058995B /* Hzl_TempXMTests */,
+				BCD47C381D02CB380058995B /* Hzl_TempXMUITests */,
+				BCD47C121D02CB380058995B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BCD47C121D02CB380058995B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCD47C111D02CB380058995B /* Hzl_TempXM.app */,
+				BCD47C2A1D02CB380058995B /* Hzl_TempXMTests.xctest */,
+				BCD47C351D02CB380058995B /* Hzl_TempXMUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCD47C131D02CB380058995B /* Hzl_TempXM */ = {
+			isa = PBXGroup;
+			children = (
+				BCD47C171D02CB380058995B /* AppDelegate.h */,
+				BCD47C181D02CB380058995B /* AppDelegate.m */,
+				BCD47C1A1D02CB380058995B /* ViewController.h */,
+				BCD47C1B1D02CB380058995B /* ViewController.m */,
+				BCD47C1D1D02CB380058995B /* Main.storyboard */,
+				BCD47C201D02CB380058995B /* Assets.xcassets */,
+				BCD47C221D02CB380058995B /* LaunchScreen.storyboard */,
+				BCD47C251D02CB380058995B /* Info.plist */,
+				BCD47C141D02CB380058995B /* Supporting Files */,
+			);
+			path = Hzl_TempXM;
+			sourceTree = "<group>";
+		};
+		BCD47C141D02CB380058995B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BCD47C151D02CB380058995B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCD47C2D1D02CB380058995B /* Hzl_TempXMTests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD47C2E1D02CB380058995B /* Hzl_TempXMTests.m */,
+				BCD47C301D02CB380058995B /* Info.plist */,
+			);
+			path = Hzl_TempXMTests;
+			sourceTree = "<group>";
+		};
+		BCD47C381D02CB380058995B /* Hzl_TempXMUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BCD47C391D02CB380058995B /* Hzl_TempXMUITests.m */,
+				BCD47C3B1D02CB380058995B /* Info.plist */,
+			);
+			path = Hzl_TempXMUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCD47C101D02CB380058995B /* Hzl_TempXM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD47C3E1D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXM" */;
+			buildPhases = (
+				BCD47C0D1D02CB380058995B /* Sources */,
+				BCD47C0E1D02CB380058995B /* Frameworks */,
+				BCD47C0F1D02CB380058995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hzl_TempXM;
+			productName = Hzl_TempXM;
+			productReference = BCD47C111D02CB380058995B /* Hzl_TempXM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BCD47C291D02CB380058995B /* Hzl_TempXMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD47C411D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXMTests" */;
+			buildPhases = (
+				BCD47C261D02CB380058995B /* Sources */,
+				BCD47C271D02CB380058995B /* Frameworks */,
+				BCD47C281D02CB380058995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD47C2C1D02CB380058995B /* PBXTargetDependency */,
+			);
+			name = Hzl_TempXMTests;
+			productName = Hzl_TempXMTests;
+			productReference = BCD47C2A1D02CB380058995B /* Hzl_TempXMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BCD47C341D02CB380058995B /* Hzl_TempXMUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCD47C441D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXMUITests" */;
+			buildPhases = (
+				BCD47C311D02CB380058995B /* Sources */,
+				BCD47C321D02CB380058995B /* Frameworks */,
+				BCD47C331D02CB380058995B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BCD47C371D02CB380058995B /* PBXTargetDependency */,
+			);
+			name = Hzl_TempXMUITests;
+			productName = Hzl_TempXMUITests;
+			productReference = BCD47C351D02CB380058995B /* Hzl_TempXMUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCD47C091D02CB380058995B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = mric;
+				TargetAttributes = {
+					BCD47C101D02CB380058995B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BCD47C291D02CB380058995B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BCD47C101D02CB380058995B;
+					};
+					BCD47C341D02CB380058995B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BCD47C101D02CB380058995B;
+					};
+				};
+			};
+			buildConfigurationList = BCD47C0C1D02CB380058995B /* Build configuration list for PBXProject "Hzl_TempXM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCD47C081D02CB380058995B;
+			productRefGroup = BCD47C121D02CB380058995B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCD47C101D02CB380058995B /* Hzl_TempXM */,
+				BCD47C291D02CB380058995B /* Hzl_TempXMTests */,
+				BCD47C341D02CB380058995B /* Hzl_TempXMUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCD47C0F1D02CB380058995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD47C241D02CB380058995B /* LaunchScreen.storyboard in Resources */,
+				BCD47C211D02CB380058995B /* Assets.xcassets in Resources */,
+				BCD47C1F1D02CB380058995B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C281D02CB380058995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C331D02CB380058995B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCD47C0D1D02CB380058995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD47C1C1D02CB380058995B /* ViewController.m in Sources */,
+				BCD47C191D02CB380058995B /* AppDelegate.m in Sources */,
+				BCD47C161D02CB380058995B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C261D02CB380058995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD47C2F1D02CB380058995B /* Hzl_TempXMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCD47C311D02CB380058995B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD47C3A1D02CB380058995B /* Hzl_TempXMUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BCD47C2C1D02CB380058995B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD47C101D02CB380058995B /* Hzl_TempXM */;
+			targetProxy = BCD47C2B1D02CB380058995B /* PBXContainerItemProxy */;
+		};
+		BCD47C371D02CB380058995B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BCD47C101D02CB380058995B /* Hzl_TempXM */;
+			targetProxy = BCD47C361D02CB380058995B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BCD47C1D1D02CB380058995B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD47C1E1D02CB380058995B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCD47C221D02CB380058995B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCD47C231D02CB380058995B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCD47C3C1D02CB380058995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCD47C3D1D02CB380058995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCD47C3F1D02CB380058995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hzl_TempXM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BCD47C401D02CB380058995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Hzl_TempXM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BCD47C421D02CB380058995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hzl_TempXMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hzl_TempXM.app/Hzl_TempXM";
+			};
+			name = Debug;
+		};
+		BCD47C431D02CB380058995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Hzl_TempXMTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXMTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hzl_TempXM.app/Hzl_TempXM";
+			};
+			name = Release;
+		};
+		BCD47C451D02CB380058995B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Hzl_TempXMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hzl_TempXM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BCD47C461D02CB380058995B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Hzl_TempXMUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "berligol.Hzl-TempXMUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Hzl_TempXM;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCD47C0C1D02CB380058995B /* Build configuration list for PBXProject "Hzl_TempXM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD47C3C1D02CB380058995B /* Debug */,
+				BCD47C3D1D02CB380058995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCD47C3E1D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD47C3F1D02CB380058995B /* Debug */,
+				BCD47C401D02CB380058995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD47C411D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD47C421D02CB380058995B /* Debug */,
+				BCD47C431D02CB380058995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BCD47C441D02CB380058995B /* Build configuration list for PBXNativeTarget "Hzl_TempXMUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCD47C451D02CB380058995B /* Debug */,
+				BCD47C461D02CB380058995B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCD47C091D02CB380058995B /* Project object */;
+}
