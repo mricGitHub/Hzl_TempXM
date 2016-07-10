@@ -1,0 +1,22 @@
+//
+//  pch.pch
+//  Hzl_TempXM
+//
+//  Created by qianfeng on 16/6/4.
+//  Copyright © 2016年 mric. All rights reserved.
+//
+
+#ifndef pch_pch
+#define pch_pch
+
+
+#ifdef __OBJC__
+
+
+#import "Masonry.h"
+#import "UIView+Frame.h"
+
+#endif
+
+
+#endif /* pch_pch */
