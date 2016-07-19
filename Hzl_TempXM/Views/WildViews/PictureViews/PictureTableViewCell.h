@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UIView+SDAutoLayout.h"
 @class PictureModel;
+@class WildBaseViewController;
 
 @interface PictureTableViewCell : UITableViewCell
 
@@ -24,6 +25,8 @@
 @property (nonatomic, strong) UILabel *tagsLabel;
 @property (nonatomic, strong) UIImageView *labelImageView;
 @property (nonatomic, strong) UILabel *labelLabel;
+@property (nonatomic, strong) UIButton *reportBtn;
+@property (nonatomic, weak) WildBaseViewController *wildController;
 
 - (void)setModel:(PictureModel *)model;
 

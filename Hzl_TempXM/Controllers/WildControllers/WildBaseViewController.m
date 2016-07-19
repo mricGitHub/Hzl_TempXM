@@ -179,12 +179,14 @@
         case 0: {
             PictureTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell0" forIndexPath:indexPath];
             cell.model = model;
+            cell.wildController = self;
             resultCell = cell;
         }
             break;
         case 1: {
             JokeTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell1" forIndexPath:indexPath];
             cell.model = model;
+            cell.wildController = self;
             resultCell = cell;
         }
             
@@ -192,6 +194,7 @@
         case 2: {
             VideoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell2" forIndexPath:indexPath];
             cell.model = model;
+            cell.wildController = self;
             resultCell = cell;
             
         }

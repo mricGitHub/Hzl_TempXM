@@ -9,6 +9,7 @@
 #import "JokeTableViewCell.h"
 #import "PictureModel.h"
 #import "UIImageView+WebCache.h"
+#import "WildBaseViewController.h"
 
 @implementation JokeTableViewCell
 
@@ -50,6 +51,10 @@
     _labelLabel = [[UILabel alloc] init];
     _labelLabel.font = [UIFont systemFontOfSize:14];
     
+    _reportBtn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [_reportBtn setTitle:@"举报内容" forState:UIControlStateNormal];
+    [_reportBtn addTarget:self action:@selector(btnClick:) forControlEvents:UIControlEventTouchUpInside];
+    
     _contentLabel = [[UILabel alloc] init];
     _contentLabel.numberOfLines = 0;
     _contentLabel.lineBreakMode = NSLineBreakByWordWrapping;
@@ -59,7 +64,7 @@
     
     
     
-    [self.contentView sd_addSubviews:@[_headerImageView, _nameLabel, _passtimeLabel, _cusotmTextLabel, _labelImageView, _labelLabel, _contentLabel]];
+    [self.contentView sd_addSubviews:@[_headerImageView, _nameLabel, _passtimeLabel, _cusotmTextLabel, _labelImageView, _labelLabel, _reportBtn, _contentLabel]];
     
     _headerImageView.sd_layout.widthIs(30).heightIs(30).topSpaceToView(self.contentView, 10).leftSpaceToView(self.contentView, 10);
     
@@ -72,7 +77,9 @@
     
     _labelImageView.sd_layout.leftSpaceToView(self.contentView, 10).topSpaceToView(_cusotmTextLabel, 5).widthIs(20).heightIs(20);
     
-    _labelLabel.sd_layout.leftSpaceToView(_labelImageView, 10).topSpaceToView(_cusotmTextLabel, 5).rightSpaceToView(self.contentView, 10).heightIs(20);
+    _labelLabel.sd_layout.leftSpaceToView(_labelImageView, 10).topSpaceToView(_cusotmTextLabel, 5).rightSpaceToView(self.contentView, 100).heightIs(20);
+    
+    _reportBtn.sd_layout.rightSpaceToView(self.contentView, 10).heightIs(20).topEqualToView(_labelLabel).widthIs(80);
     
     _contentLabel.sd_layout.leftSpaceToView(self.contentView, 10).topSpaceToView(_labelImageView, 5).rightSpaceToView(self.contentView, 10).autoHeightRatio(0);
     
@@ -112,6 +119,24 @@
     [super setSelected:selected animated:animated];
 
     // Configure the view for the selected state
+}
+
+- (void)btnClick:(UIButton *)btn {
+    
+    UIAlertController *cl = [UIAlertController alertControllerWithTitle:@"举报内容" message:@"确认举报内容？举报后我们将尽快处理。" preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertAction *report = [UIAlertAction actionWithTitle:@"确认" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    UIAlertAction *destru = [UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+        
+    }];
+    
+    [cl addAction:report];
+    [cl addAction:destru];
+    if (_wildController) {
+        [_wildController presentViewController:cl animated:YES completion:nil];
+    }
+    
 }
 
 @end

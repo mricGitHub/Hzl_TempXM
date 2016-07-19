@@ -12,6 +12,7 @@
 @class PictureModel;
 @class PLMoviePlayer;
 @class PLMovieManager;
+@class WildBaseViewController;
 
 @interface VideoTableViewCell : UITableViewCell
 
@@ -29,6 +30,9 @@
 @property (nonatomic, strong) UILabel *labelLabel;
 
 @property (nonatomic, strong) UIButton *videoBtn;
+
+@property (nonatomic, strong) UIButton *reportBtn;
+@property (nonatomic, weak) WildBaseViewController *wildController;
 
 - (void)setModel:(PictureModel *)model;
 

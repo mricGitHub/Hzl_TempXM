@@ -1,14 +1,17 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "B8B70F5A444B1C431E4813AEEFE1DC3164C73EBA",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
     "46268f7f-10a6-446d-9f85-eadcec48048e++7127" : {
 
     }
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "B8B70F5A444B1C431E4813AEEFE1DC3164C73EBA" : 0,
     "46268f7f-10a6-446d-9f85-eadcec48048e++7127" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "25EEFDAE-9DF0-4B45-9144-501664D6B252",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "B8B70F5A444B1C431E4813AEEFE1DC3164C73EBA" : "Hzl_TempXM\/",
     "46268f7f-10a6-446d-9f85-eadcec48048e++7127" : ""
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Hzl_TempXM",
@@ -19,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/localhost",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "46268f7f-10a6-446d-9f85-eadcec48048e++7127"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/mricGitHub\/Hzl_TempXM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "B8B70F5A444B1C431E4813AEEFE1DC3164C73EBA"
     }
   ]
 }
